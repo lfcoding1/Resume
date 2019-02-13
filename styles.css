@@ -159,26 +159,40 @@ body{
   color: white;
   margin-left: 15%;
 }
-.studyP, .onlineP {
+.studyP{
   font-size: 1.25rem;
   font-style: normal;
 }
 .studySubtitle, .onlineSubtitle{
   font-size: 1.75rem;
-  margin: 3rem;
+  margin: 2.5rem;
   font-style: italic;
 }
 .studyTitle, .onlineTitle{
   font-size:2.5rem;
-  margin-top: 10%;
+  margin-top: 8%;
   margin-right: 0%;
 }
 .onlineCard {
   color: white;
-  margin-top: 2%;
+  margin-top: 1%;
   position: absolute;
   right: 5%;
-  top: 8%;
+  top: 7%;
+}
+
+#onlineP, #onlineP2, #onlineP3, #onlineP4 {
+  color: white;
+  font-size: 1.25rem;
+  font-style: normal;
+  padding: 2rem;
+  margin: 2.5rem;
+}
+.soloP {
+  color: white;
+  font-size: 1.25rem;
+  font-style: normal;
+  margin: 2.5rem;
 }
 
 

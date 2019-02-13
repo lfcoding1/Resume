@@ -16,10 +16,14 @@ function createAndAppend(name, parent, options = {}) {
 
 const root = document.getElementById('root');
    
-  //NAVIGATION BAR
-  let navBar = createAndAppend('div', root, {class: 'navBar'});
-  let home = createAndAppend('a', navBar, {text: 'HOME', href: 'index.html', class: 'navBarOption'});
-  let about = createAndAppend('a', navBar, {text: 'ABOUT', href: 'about.html', class: 'navBarOption'});
-  let skills = createAndAppend('a', navBar, {text: 'SKILLS', class: 'navBarOption', href: 'skills.html'});
-  let qualifications = createAndAppend('a', navBar, {class: 'navBarOption', href: 'qualifications.html', text: 'STUDIES'})
-  let portfolio = createAndAppend('a', navBar, {text: 'PORTFOLIO', href: 'portfolio.html', class: 'navBarOption'});
+//NAVIGATION BAR
+let navBar = createAndAppend('div', root, {class: 'navBar'});
+let home = createAndAppend('a', navBar, {text: 'HOME', href: 'index.html', class: 'navBarOption'});
+let about = createAndAppend('a', navBar, {text: 'ABOUT', href: 'about.html', class: 'navBarOption'});
+let skills = createAndAppend('a', navBar, {text: 'SKILLS', class: 'navBarOption', href: 'skills.html'});
+let qualifications = createAndAppend('a', navBar, {class: 'navBarOption', href: 'qualifications.html', text: 'STUDIES'})
+let portfolio = createAndAppend('a', navBar, {text: 'PORTFOLIO', href: 'portfolio.html', class: 'navBarOption'});
+
+let container = createAndAppend('div', root, {class: 'portfolioContainer'});
+let header = createAndAppend('div', container, {class: 'header', text: 'Portfolio pieces'});
+let subHeader = createAndAppend('div', container, {class: 'subheader', text: 'Check out more of my work on Github'})

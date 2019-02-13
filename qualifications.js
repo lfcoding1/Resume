@@ -50,9 +50,21 @@ function createAndAppend(name, parent, options = {}) {
   let onlineCard = createAndAppend('div', container, {class: 'onlineCard'});
   let onlineTitle = createAndAppend('h1', onlineCard, {class: 'onlineTitle', text: 'Online Studies'});
   let solo = createAndAppend('h2', onlineCard, {class: 'onlineSubtitle', text:'SoloLearn:'});
-  createAndAppend('p', solo, {class: 'onlineP', text: '-HTML Fundamentals', href: 'https://www.sololearn.com/Certificate/1014-11160983/pdf/'});
-  createAndAppend('p', solo, {class: 'onlineP', text: '-SQL Fundamentals', href: 'https://www.sololearn.com/Certificate/1060-11160983/pdf/'})
-  createAndAppend('p', solo, {class: 'onlineP', text: '-JavaScript Tutorial', href: 'https://www.sololearn.com/Certificate/1024-11160983/pdf/'});
+  let p1 = createAndAppend('p',onlineCard, {class: 'soloP', text: 'HTML Fundamentals'});
+  createAndAppend('a', p1, {id: 'onlineP', text: 'Click here for certificate' + '\n'});
+  document.getElementById("onlineP").href = "https://www.sololearn.com/Certificate/1014-11160983/pdf/"; 
+  document.getElementById("onlineP").target="_blank";
+  let p2 = createAndAppend('p',onlineCard, {class: 'soloP', text: 'SQL Fundamentals'});
+  createAndAppend('a', p2, {id: 'onlineP2', text: 'Click here for certificate' + '\n'});
+  document.getElementById("onlineP2").href = "https://www.sololearn.com/Certificate/1060-11160983/pdf/"; 
+  document.getElementById("onlineP2").target="_blank";
+  let p3 = createAndAppend('p',onlineCard, {class: 'soloP', text: 'JavaScript Tutorial'});
+  createAndAppend('a', p3, {id: 'onlineP3', text: 'Click here for certificate' + '\n'});
+  document.getElementById("onlineP3").href = "https://www.sololearn.com/Certificate/1024-11160983/pdf/"; 
+  document.getElementById("onlineP3").target="_blank";
   let freecode = createAndAppend('h2', onlineCard, {class: 'onlineSubtitle', text: 'FreeCodeCamp:'});
-  createAndAppend('p', freecode, {class: 'onlineP', text: 'approximately 250 hours of online studies'});
-  createAndAppend('a', freecode, {class: 'onlineP', href: 'https://www.freecodecamp.org/lfcoding'});
+  let p4 = createAndAppend('p', onlineCard, {class: 'soloP', text:'Web Fundamentals'});
+  createAndAppend('a', p4, {id: 'onlineP4', text: 'Click here for profile link' + '\n'});
+  document.getElementById("onlineP4").href = "https://www.freecodecamp.org/lfcoding"; 
+  document.getElementById("onlineP4").target="_blank";
+
