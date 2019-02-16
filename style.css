@@ -4,9 +4,10 @@
 }
 .navbar {
 	background-color: white;
-	padding: 1% 0;
+	padding: 1% 0%;
 	font-size: 1.75em;
 }
+
 .navbar-default .navbar-nav li a {
 	color: black;
 }
@@ -66,13 +67,14 @@
 	text-align: center;
 }
 
-.image{
+img .image{
 	width: 40rem;
 	height: 40rem;
 	object-fit: contain;
 	transform: rotate(270deg);
 	border-radius: 50%;
 	position: relative;
+	margin-left: -30px;
 }
 footer {
 	background-color: lightgray;
@@ -101,7 +103,7 @@ footer .fa {
 .abouth2 {
 	font-size: 4rem;
 	color: white;
-	font-weight: 200;
+	font-weight: 400;
 }
 /*SKILLS*/
 .introskills{
