@@ -117,15 +117,15 @@ footer .fa {
 }
 .skillsh2{
 	color: white;
-	padding: 40px;
+	padding: 40px 40px 10px 40px;
 	font-size: 4rem;
 	font-weight: 200;
 }
-
-/*STUDIES*/
-.fa-graduation-cap, .fa-laptop{
-	color: purple;
+/*ICONS*/
+.fa-graduation-cap, .fa-laptop, .fa-briefcase, .fa-language, .fa-desktop, .fa-id-card{
+	color: white;
 }
+/*STUDIES*/
 .introstudies{
 	display: table-cell;
 	text-align: left;
@@ -139,12 +139,11 @@ footer .fa {
 }
 .studiesh2{
 	color: white;
-	font-size: 3rem;
+	font-size: 4rem;
 	font-weight: 200;
 }
 	 
 .studiesh3 .title-font{
-	background-color: rgb(173, 22, 141);
 	color: white;
 	font-size: 2.5rem;
 	font-weight: 200;
@@ -163,15 +162,15 @@ footer .fa {
 	text-align: center;
 }
 .experienceh2{
-	font-size:3.5rem;
 	color: white;
-	font-weight: 400;
+	font-size: 4rem;
+	font-weight: 200;
 }
 .experienceh4 .large-font {
 	font-size: 2.5rem;
-	background-color: purple;
 	color: white;
 	font-weight: 400;
+	font-style: italic;
 	
 }
 .experienceh4 .small-font{
@@ -179,6 +178,31 @@ footer .fa {
 	color: white;
 	font-weight: 200;
 }
+
+/*PORTFOLIO*/
+.portfolioh2{
+	color: white;
+	font-size: 4rem;
+	font-weight: 200;
+	padding-top: 4rem;
+}
+.portfolioImage {
+	width: 40rem;
+	height: 40rem;
+	object-fit: contain;
+	position: relative;
+	margin-left: 10em;
+}
+.portfolioLeadh3{
+	color: white;
+	font-size: 2.5rem
+}
+.portfolioContent {
+	color: white;
+	
+}
+
+
 @media screen and (min-width: 200px) and (max-width: 1300px) {
 	.fa{
 		padding-left: 10px;
