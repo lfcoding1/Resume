@@ -19,6 +19,8 @@
 	margin-left: 5rem;
 	font-size: 1.75em;
 }
+
+
 #home{
 	background: url('images/stillife.jpg') no-repeat center center fixed;
 	background-size: cover;
@@ -86,23 +88,27 @@ footer h4{
 footer .fa {
 	color: white;
 	font-size: 4rem;
-	padding: 2rem;
 }
 /*ABOUT*/
 .introabout{
 	display: table-cell;
 	text-align: center;
-	vertical-align: baseline;
-	padding: 200px 50px 0px 80px;
+	padding: 80px 50px 0px 80px;
 }
 .about{
 	color: white;
-	font-size: 2rem;
+	font-size: 2.5rem;
 }
 .abouth2 {
 	font-size: 4rem;
 	color: white;
 	font-weight: 400;
+}
+.portfolioLink {
+	color: white;
+	font-size: 3rem;
+	list-style-type: circle;
+	text-align: left;
 }
 /*SKILLS*/
 .introskills{
@@ -179,29 +185,6 @@ footer .fa {
 	font-weight: 200;
 }
 
-/*PORTFOLIO*/
-.portfolioh2{
-	color: white;
-	font-size: 4rem;
-	font-weight: 200;
-	padding-top: 4rem;
-}
-.portfolioImage {
-	width: 40rem;
-	height: 40rem;
-	object-fit: contain;
-	position: relative;
-	margin-left: 10em;
-}
-.portfolioLeadh3{
-	color: white;
-	font-size: 2.5rem
-}
-.portfolioContent {
-	color: white;
-	
-}
-
 
 @media screen and (min-width: 200px) and (max-width: 1300px) {
 	.fa{
@@ -223,8 +206,10 @@ footer .fa {
 		width: 100%;
 		padding-top: 50px;
 	}
+	.portfolioContent{
+		margin: 3rem;
+	}
 }
-
 
 
 
