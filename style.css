@@ -161,7 +161,10 @@ footer .fa {
 .studiesh4{
 	color: white;
 }
-.onlineLink {
+a:hover {
+	color: white;
+}
+.onlineLink{
 	color: lightgray;
 }
 
