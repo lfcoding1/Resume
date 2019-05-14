@@ -2,6 +2,12 @@
 	height: 100%;
 	width: 100%;
 }
+.row {
+	padding-top: 2%;
+}
+.container{
+	height: 100px;
+}
 .navbar {
 	background-color: white;
 	padding: 1% 0%;
@@ -90,45 +96,45 @@ footer .fa {
 	font-size: 4rem;
 }
 /*ABOUT*/
-.introabout{
-	display: table-cell;
+#introabout{
 	text-align: center;
-	padding: 80px 50px 0px 80px;
+	color: white;
 }
 .about{
-	color: white;
 	font-size: 2.5rem;
+	text-align: center;
+	padding-bottom: 1em;
 }
 .abouth2 {
 	font-size: 4rem;
-	color: white;
 	font-weight: 400;
+	padding: 80px 50px 0px 80px;
 }
+/*SKILLS*/
 .portfolioLink {
 	color: white;
 	font-size: 3rem;
-	list-style-type: circle;
 	text-align: left;
+	margin: 1px;
 }
-/*SKILLS*/
+
 .introskills{
 	display: table-cell;
 	vertical-align: baseline;
 	padding: 100px 50px 0px 80px;
 }
-.skillsUl{
+.skillsUl, .skills{
 	list-style-type: none;
 	color: white;
 	font-size: 2rem;
 }
 .skillsh2{
 	color: white;
-	padding: 40px 40px 10px 40px;
 	font-size: 4rem;
 	font-weight: 200;
 }
 /*ICONS*/
-.fa-graduation-cap, .fa-laptop, .fa-briefcase, .fa-language, .fa-desktop, .fa-id-card{
+.fa-graduation-cap, .fa-laptop, .fa-briefcase, .fa-language, .fa-desktop, .fa-id-card, .fa-code{
 	color: white;
 }
 /*STUDIES*/
