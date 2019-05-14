@@ -13,7 +13,6 @@
 	padding: 1% 0%;
 	font-size: 1.75em;
 }
-
 .navbar-default .navbar-nav li a {
 	color: black;
 }
@@ -25,8 +24,6 @@
 	margin-left: 5rem;
 	font-size: 1.75em;
 }
-
-
 #home{
 	background: url('images/stillife.jpg') no-repeat center center fixed;
 	background-size: cover;
@@ -164,7 +161,7 @@ footer .fa {
 .studiesh4{
 	color: white;
 }
-.onlinelink {
+.onlineLink {
 	color: lightgray;
 }
 
